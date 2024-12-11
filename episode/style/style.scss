@@ -10,7 +10,7 @@ $main-color: #deecf1;
 
 .nav {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   padding-inline: 250px;
   text-transform: uppercase;
   background-color: $main-color;
@@ -32,10 +32,10 @@ $main-color: #deecf1;
 
   &-right {
     font-size: 1.25rem;
-    column-gap: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
+    column-gap: 10px;
     list-style: none;
 
     &-link {

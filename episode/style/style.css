@@ -8,7 +8,7 @@
 
 .nav {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   padding-inline: 250px;
   text-transform: uppercase;
   background-color: #deecf1;
@@ -28,11 +28,11 @@
 }
 .nav-right {
   font-size: 1.25rem;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
   list-style: none;
 }
 .nav-right-link {
