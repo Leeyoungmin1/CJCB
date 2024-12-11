@@ -47,12 +47,12 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-s .best-goods {
+.best-goods {
   max-width: 60%;
   margin-inline: auto;
   text-align: center;
 }
-s .best-goods-title_title {
+.best-goods-title_title {
   margin-top: 200px;
   font-size: 53px;
 }
