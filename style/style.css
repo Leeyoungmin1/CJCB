@@ -41,6 +41,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
   list-style: none;
 }
 .nav-right-link {
